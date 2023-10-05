@@ -1,0 +1,31 @@
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.overlay{
+    background-color: rgba(000, 000, 000, .50);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vh;
+}
+.title{
+    width: 50%;
+  
+}
+.title h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding-right: 10rem;
+}
+.title p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.slides{
+    width:40%;
+}

@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    margin: 0;
+    padding: 1.5rem;
+    transition: all 1s;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--black);
+    padding:.5rem;
+    padding-bottom: 2.5rem;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid var(--secondary);
+}
+

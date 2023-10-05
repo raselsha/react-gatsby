@@ -1,0 +1,46 @@
+.logo{
+    padding: 3rem 0;
+    filter: brightness(0) invert(1);
+}
+.widgets{
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+}
+.col{
+    width: 25%;
+}
+
+.icons{
+    display: inline-block;
+}
+.icons svg{
+    color: var(--white);
+    padding: .5em;
+}
+.copyright{
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+.col h2{
+    margin: 1rem 0;
+}
+.col ul{
+    margin:0;
+    list-style: none;
+}
+.col ul li{
+    margin:0.8em 0;
+}
+.col ul li a{
+    text-decoration: none;
+}
+.col ul li a:hover{
+    color: var(--secondary);
+}
+
+.copyright p{
+    margin: 0;
+    padding: .5em;
+}
